@@ -1,2 +1,2 @@
 import module from '../crate/Cargo.toml'
-module.run();
+document.getElementById("myuuid").innerHTML = module.uuid4();
