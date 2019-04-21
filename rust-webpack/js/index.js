@@ -1,3 +1,3 @@
 import("../crate/pkg").then(module => {
-  module.run();
+  document.getElementById("myuuid").innerHTML = module.uuid4();
 });
