@@ -1,3 +1,3 @@
-import * as wasm from "hello-wasm-pack";
+import * as wasm from "uuid-wasm";
 
-wasm.greet();
+document.getElementById("myuuid").innerHTML = wasm.uuid4();
